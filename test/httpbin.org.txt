@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <title>
+   Tablib: Pythonic Tabular Datasets — Tablib 0.12.1 documentation
+  </title>
+  <link href="_static/flasky.css" rel="stylesheet" type="text/css"/>
+  <link href="_static/pygments.css" rel="stylesheet" type="text/css"/>
+  <link href="https://media.readthedocs.org/css/badge_only.css" rel="stylesheet" type="text/css"/>
+  <script data-url_root="#" id="documentation_options" src="_static/documentation_options.js" type="text/javascript">
+  </script>
+  <script src="https://media.readthedocs.org/javascript/jquery/jquery-2.0.3.min.js" type="text/javascript">
+  </script>
+  <script src="https://media.readthedocs.org/javascript/jquery/jquery-migrate-1.2.1.min.js" type="text/javascript">
+  </script>
+  <script src="https://media.readthedocs.org/javascript/underscore.js" type="text/javascript">
+  </script>
+  <script src="https://media.readthedocs.org/javascript/doctools.js" type="text/javascript">
+  </script>
+  <script src="https://media.readthedocs.org/javascript/readthedocs-doc-embed.js" type="text/javascript">
+  </script>
+  <link href="genindex/" rel="index" title="Index"/>
+  <link href="search/" rel="search" title="Search"/>
+  <link href="intro/" rel="next" title="Introduction"/>
+  <link href="_static/small_flask.css" media="only screen and (max-device-width: 480px)" rel="stylesheet" type="text/css"/>
+  <link href="/en/master/" rel="canonical"/>
+  <link href="https://media.readthedocs.org/css/readthedocs-doc-embed.css" rel="stylesheet" type="text/css"/>
+  <script src="_static/readthedocs-data.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   READTHEDOCS_DATA['page'] = 'index'
+  READTHEDOCS_DATA['source_suffix'] = '.rst'
+  </script>
+  <script src="https://media.readthedocs.org/javascript/readthedocs-analytics.js" type="text/javascript">
+  </script>
+ </head>
+ <body>
+  <div aria-label="related navigation" class="related" role="navigation">
+   <h3>
+    Navigation
+   </h3>
+   <ul>
+    <li class="right" style="margin-right: 10px">
+     <a accesskey="I" href="genindex/" title="General Index">
+      index
+     </a>
+    </li>
+    <li class="right">
+     <a href="py-modindex/" title="Python Module Index">
+      modules
+     </a>
+     |
+    </li>
+    <li class="right">
+     <a accesskey="N" href="intro/" title="Introduction">
+      next
+     </a>
+     |
+    </li>
+    <li class="nav-item nav-item-0">
+     <a href="#">
+      Tablib 0.12.1 documentation
+     </a>
+     »
+    </li>
+   </ul>
+  </div>
+  <div class="document">
+   <div class="documentwrapper">
+    <div class="bodywrapper">
+     <div class="body" role="main">
+      <div class="section" id="tablib-pythonic-tabular-datasets">
+       <h1>
+        Tablib: Pythonic Tabular Datasets
+        <a class="headerlink" href="#tablib-pythonic-tabular-datasets" title="Permalink to this headline">
+         ¶
+        </a>
+       </h1>
+       <p>
+        Release v0.12.1. (
+        <a class="reference internal" href="install/#install">
+         <span class="std std-ref">
+          Installation
+         </span>
+        </a>
+        )
+       </p>
+       <p>
+        Tablib is an
+        <span class="xref std std-ref">
+         MIT Licensed
+        </span>
+        format-agnostic tabular dataset library, written in Python. It allows you to import, export, and manipulate tabular data sets. Advanced features include, segregation, dynamic columns, tags &amp; filtering, and seamless format import &amp; export.
+       </p>
+       <div class="highlight-default notranslate">
+        <div class="highlight">
+         <pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">data</span> <span class="o">=</span> <span class="n">tablib</span><span class="o">.</span><span class="n">Dataset</span><span class="p">(</span><span class="n">headers</span><span class="o">=</span><span class="p">[</span><span class="s1">'First Name'</span><span class="p">,</span> <span class="s1">'Last Name'</span><span class="p">,</span> <span class="s1">'Age'</span><span class="p">])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="p">[(</span><span class="s1">'Kenneth'</span><span class="p">,</span> <span class="s1">'Reitz'</span><span class="p">,</span> <span class="mi">22</span><span class="p">),</span> <span class="p">(</span><span class="s1">'Bessie'</span><span class="p">,</span> <span class="s1">'Monke'</span><span class="p">,</span> <span class="mi">21</span><span class="p">)]:</span>
+<span class="gp">... </span>    <span class="n">data</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+
+
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">export</span><span class="p">(</span><span class="s1">'json'</span><span class="p">))</span>
+<span class="go">[{"Last Name": "Reitz", "First Name": "Kenneth", "Age": 22}, {"Last Name": "Monke", "First Name": "Bessie", "Age": 21}]</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">export</span><span class="p">(</span><span class="s1">'yaml'</span><span class="p">))</span>
+<span class="go">- {Age: 22, First Name: Kenneth, Last Name: Reitz}</span>
+<span class="go">- {Age: 21, First Name: Bessie, Last Name: Monke}</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">data</span><span class="o">.</span><span class="n">export</span><span class="p">(</span><span class="s1">'xlsx'</span><span class="p">)</span>
+<span class="go">&lt;censored binary data&gt;</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">data</span><span class="o">.</span><span class="n">export</span><span class="p">(</span><span class="s1">'df'</span><span class="p">)</span>
+<span class="go">  First Name Last Name  Age</span>
+<span class="go">0    Kenneth     Reitz   22</span>
+<span class="go">1     Bessie     Monke   21</span>
+</pre>
+        </div>
+       </div>
+       <div class="section" id="testimonials">
+        <h2>
+         Testimonials
+         <a class="headerlink" href="#testimonials" title="Permalink to this headline">
+          ¶
+         </a>
+        </h2>
+        <p>
+         National Geographic, Digg, Inc, Northrop Grumman, Discovery Channel, and The Sunlight Foundation use Tablib internally.
+        </p>
+        <dl class="docutils">
+         <dt>
+          <strong>
+           Greg Thorton
+          </strong>
+         </dt>
+         <dd>
+          Tablib by @kennethreitz saved my life. I had to consolidate like 5 huge poorly maintained lists of domains and data. It was a breeze!
+         </dd>
+         <dt>
+          <strong>
+           Dave Coutts
+          </strong>
+         </dt>
+         <dd>
+          It’s turning into one of my most used modules of 2010. You really hit a sweet spot for managing tabular data with a minimal amount of code and effort.
+         </dd>
+         <dt>
+          <strong>
+           Joshua Ourisman
+          </strong>
+         </dt>
+         <dd>
+          Tablib has made it
+          <a href="https://27cashadvance.com/">
+           so much easier
+          </a>
+          to deal with the inevitable ‘I want an Excel file!’ requests from clients…
+         </dd>
+         <dt>
+          <strong>
+           Brad Montgomery
+          </strong>
+         </dt>
+         <dd>
+          I think you nailed the “Python Zen” with tablib. Thanks again for an awesome lib!
+         </dd>
+        </dl>
+       </div>
+       <div class="section" id="user-s-guide">
+        <h2>
+         User’s Guide
+         <a class="headerlink" href="#user-s-guide" title="Permalink to this headline">
+          ¶
+         </a>
+        </h2>
+        <p>
+         This part of the documentation, which is mostly prose, begins with some background information about Tablib, then focuses on step-by-step instructions for getting the most out of your datasets.
+        </p>
+        <div class="toctree-wrapper compound">
+         <ul>
+          <li class="toctree-l1">
+           <a class="reference internal" href="intro/">
+            Introduction
+           </a>
+           <ul>
+            <li class="toctree-l2">
+             <a class="reference internal" href="intro/#philosophy">
+              Philosophy
+             </a>
+            </li>
+            <li class="toctree-l2">
+             <a class="reference internal" href="intro/#mit-license">
+              MIT License
+             </a>
+            </li>
+            <li class="toctree-l2">
+             <a class="reference internal" href="intro/#tablib-license">
+              Tablib License
+             </a>
+            </li>
+            <li class="toctree-l2">
+             <a class="reference internal" href="intro/#pythons-supported">
+              Pythons Supported
+             </a>
+            </li>
+           </ul>
+          </li>
+         </ul>
+        </div>
+        <div class="toctree-wrapper compound">
+         <ul>
+          <li class="toctree-l1">
+           <a class="reference internal" href="install/">
+            Installation
+           </a>
+           <ul>
+            <li class="toctree-l2">
+             <a class="reference internal" href="install/#installing-tablib">
+              Installing Tablib
+             </a>
+            </li>
+            <li class="toctree-l2">
+             <a class="reference internal" href="install/#download-the-source">
+              Download the Source
+             </a>
+            </li>
+           </ul>
+          </li>
+         </ul>
+        </div>
+        <div class="toctree-wrapper compound">
+         <ul>
+          <li class="toctree-l1">
+           <a class="reference internal" href="tutorial/">
+            Quickstart
+           </a>
+           <ul>
+            <li class="toctree-l2">
+             <a class="reference internal" href="tutorial/#creating-a-dataset">
+              Creating a Dataset
+             </a>
+            </li>
+            <li class="toctree-l2">
+             <a class="reference internal" href="tutorial/#adding-rows">
+              Adding Rows
+             </a>
+            </li>
+            <li class="toctree-l2">
+             <a class="reference internal" href="tutorial/#adding-headers">
+              Adding Headers
+             </a>
+            </li>
+            <li class="toctree-l2">
+             <a class="reference internal" href="tutorial/#adding-columns">
+              Adding Columns
+             </a>
+            </li>
+            <li class="toctree-l2">
+             <a class="reference internal" href="tutorial/#importing-data">
+              Importing Data
+             </a>
+            </li>
+            <li class="toctree-l2">
+             <a class="reference internal" href="tutorial/#exporting-data">
+              Exporting Data
+             </a>
+            </li>
+            <li class="toctree-l2">
+             <a class="reference internal" href="tutorial/#selecting-rows-columns">
+              Selecting Rows &amp; Columns
+             </a>
+            </li>
+            <li class="toctree-l2">
+             <a class="reference internal" href="tutorial/#removing-rows-columns">
+              Removing Rows &amp; Columns
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li class="toctree-l1">
+           <a class="reference internal" href="tutorial/#advanced-usage">
+            Advanced Usage
+           </a>
+           <ul>
+            <li class="toctree-l2">
+             <a class="reference internal" href="tutorial/#dynamic-columns">
+              Dynamic Columns
+             </a>
+            </li>
+            <li class="toctree-l2">
+             <a class="reference internal" href="tutorial/#filtering-datasets-with-tags">
+              Filtering Datasets with Tags
+             </a>
+            </li>
+            <li class="toctree-l2">
+             <a class="reference internal" href="tutorial/#separators">
+              Separators
+             </a>
+            </li>
+           </ul>
+          </li>
+         </ul>
+        </div>
+        <div class="toctree-wrapper compound">
+         <ul>
+          <li class="toctree-l1">
+           <a class="reference internal" href="development/">
+            Development
+           </a>
+           <ul>
+            <li class="toctree-l2">
+             <a class="reference internal" href="development/#design-considerations">
+              Design Considerations
+             </a>
+            </li>
+            <li class="toctree-l2">
+             <a class="reference internal" href="development/#source-control">
+              Source Control
+             </a>
+            </li>
+            <li class="toctree-l2">
+             <a class="reference internal" href="development/#adding-new-formats">
+              Adding New Formats
+             </a>
+            </li>
+            <li class="toctree-l2">
+             <a class="reference internal" href="development/#testing-tablib">
+              Testing Tablib
+             </a>
+            </li>
+            <li class="toctree-l2">
+             <a class="reference internal" href="development/#continuous-integration">
+              Continuous Integration
+             </a>
+            </li>
+            <li class="toctree-l2">
+             <a class="reference internal" href="development/#building-the-docs">
+              Building the Docs
+             </a>
+            </li>
+           </ul>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="section" id="api-reference">
+        <h2>
+         API Reference
+         <a class="headerlink" href="#api-reference" title="Permalink to this headline">
+          ¶
+         </a>
+        </h2>
+        <p>
+         If you are looking for information on a specific function, class or method, this part of the documentation is for you.
+        </p>
+        <div class="toctree-wrapper compound">
+         <ul>
+          <li class="toctree-l1">
+           <a class="reference internal" href="api/">
+            API
+           </a>
+           <ul>
+            <li class="toctree-l2">
+             <a class="reference internal" href="api/#dataset-object">
+              Dataset Object
+             </a>
+            </li>
+            <li class="toctree-l2">
+             <a class="reference internal" href="api/#databook-object">
+              Databook Object
+             </a>
+            </li>
+            <li class="toctree-l2">
+             <a class="reference internal" href="api/#functions">
+              Functions
+             </a>
+            </li>
+            <li class="toctree-l2">
+             <a class="reference internal" href="api/#exceptions">
+              Exceptions
+             </a>
+            </li>
+           </ul>
+          </li>
+         </ul>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div aria-label="main navigation" class="sphinxsidebar" role="navigation">
+    <div class="sphinxsidebarwrapper">
+     <h3>
+      <a href="/">
+       About Tablib
+      </a>
+     </h3>
+     <p>
+      Tablib is an MIT Licensed format-agnostic tabular dataset library, written in Python. It allows you to import, export, and manipulate tabular data sets. Advanced features include, segregation, dynamic columns, tags &amp; filtering, and seamless format import &amp; export.
+     </p>
+     <h3>
+      Feedback
+     </h3>
+     <p>
+      Feedback is greatly appreciated. If you have any questions, comments, random praise, or anonymous threats, .
+     </p>
+     <h3>
+      Useful Links
+     </h3>
+     <ul>
+      <li>
+       <a href="/">
+        The Tablib Website
+       </a>
+      </li>
+      <li>
+       Tablib @ PyPI
+      </li>
+      <li>
+       Tablib @ GitHub
+      </li>
+      <li>
+       Issue Tracker
+      </li>
+     </ul>
+     <div aria-label="source link" role="note">
+      <h3>
+       This Page
+      </h3>
+      <ul class="this-page-menu">
+       <li>
+        <a href="_sources/index.rst.txt" rel="nofollow">
+         Show Source
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div id="searchbox" role="search">
+      <h3>
+       Quick search
+      </h3>
+      <div class="searchformwrapper">
+       <a href="http://quickcash24.com/">
+        <img alt="Online Same Day Loans Instant Approval - QuickCash24" src="/quickcash24.jpg" style="width:140px;"/>
+       </a>
+      </div>
+      <img alt="Fork me on GitHub" src="//s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" style="position: absolute; top: 0; right: 0; border: 0;"/>
+      <script src="//www.hellobar.com/hellobar.js" type="text/javascript">
+      </script>
+      <script type="text/javascript">
+       new HelloBar(36402,48802);
+      </script>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

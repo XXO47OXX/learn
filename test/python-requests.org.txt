@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en-US">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+   <title>
+    Nationwide Computer Repair Services | Homuten Computer Geeks
+   </title>
+   <meta content="Homuten Computer Geeks offers 24/7 national computer repair services for both PC and Mac. Call us today!" name="description"/>
+   <link href="css/components.css" rel="stylesheet"/>
+   <link href="css/icons.css" rel="stylesheet"/>
+   <link href="css/responsee.css" rel="stylesheet"/>
+   <link href="owl-carousel/owl.carousel.css" rel="stylesheet"/>
+   <link href="owl-carousel/owl.theme.css" rel="stylesheet"/>
+   <!-- CUSTOM STYLE -->
+   <link href="css/template-style.css" rel="stylesheet"/>
+   <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css"/>
+   <script src="js/jquery-1.8.3.min.js" type="text/javascript">
+   </script>
+   <script src="js/jquery-ui.min.js" type="text/javascript">
+   </script>
+   <script src="js/validation.js" type="text/javascript">
+   </script>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-151866394-1">
+   </script>
+   <script>
+    window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-151866394-1');
+   </script>
+   <script type="application/javascript">
+    var thanksid = 4650;
+   var thankskey = '70a5d1c2e8fa44-202b9035e2acc8';
+   var thankslist = 15691;
+   var thankslimit = '';
+   </script>
+   <script async="" src="https://www.thanks.io/widget/thanks.js">
+   </script>
+  </meta>
+ </head>
+ <body class="size-1140">
+  <!-- HEADER -->
+  <header role="banner">
+   <!-- Top Bar -->
+   <div class="top-bar background-white">
+    <div class="line">
+     <div class="s-12 m-6 l-6">
+      <div class="top-bar-contact">
+       <p class="text-size-16">
+        Contact Us 24/7 : 844-938-1085
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+   <!-- Top Navigation -->
+   <nav class="background-white background-primary-hightlight">
+    <div class="line">
+     <div class="s-12 l-2">
+      <a class="logo" href="/">
+       <img alt="Homuten Computer Geeks logo" src="/img/logo.png"/>
+      </a>
+     </div>
+     <div class="top-nav s-12 l-10">
+      <p class="nav-text">
+      </p>
+      <ul class="right chevron">
+       <li>
+        <a href="/">
+         Home
+        </a>
+       </li>
+       <li>
+        <a href="/computer-repair">
+         Our Services
+        </a>
+       </li>
+       <li>
+        <a href="/picture-gallery">
+         Picture Gallery
+        </a>
+       </li>
+       <li>
+        <a href="/contact">
+         Contact
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </nav>
+  </header>
+  <!-- MAIN -->
+  <main role="main">
+   <!-- Main Carousel -->
+   <section class="section background-dark">
+    <div class="line">
+     <div class="carousel-fade-transition owl-carousel carousel-main carousel-nav-white carousel-wide-arrows">
+      <div class="item">
+       <div class="s-12 center">
+        <img alt="" src="img/banner.jpg"/>
+        <div class="carousel-content">
+         <div class="padding-2x">
+          <div class="s-12 m-12 l-8">
+           <p class="text-white text-s-size-20 text-m-size-40 text-l-size-60 margin-bottom-40 text-thin text-line-height-1">
+            <h1>
+             National Computer Repair Geeks
+            </h1>
+           </p>
+           <p class="text-white text-size-16 margin-bottom-40">
+            Computer issues are the worst! Luckily for you we have computer techs across the United States, that are ready to help when you need it.
+           </p>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <!-- Section 1 -->
+   <section class="section background-white">
+    <div class="line">
+     <div class="margin">
+      <div class="s-12 m-12 l-4 margin-m-bottom">
+       <img alt="" class="margin-bottom" src="img/desktop-repair-services.jpg"/>
+       <h2 class="text-thin">
+        Desktop &amp; Laptop Repair
+       </h2>
+       <p>
+        We can handle any computer repair for both Mac and PC computers.
+       </p>
+      </div>
+      <div class="s-12 m-12 l-4 margin-m-bottom">
+       <img alt="data recovery in process" class="margin-bottom" src="img/recovery-in-progress.jpg"/>
+       <h2 class="text-thin">
+        Data Recovery
+       </h2>
+       <p>
+        Lost your important documents or images? We can help get them back.
+       </p>
+      </div>
+      <div class="s-12 m-12 l-4 margin-m-bottom">
+       <img alt="virus removal serivces" class="margin-bottom" src="img/virus-on-computer.jpg"/>
+       <h2 class="text-thin">
+        Virus Removal
+       </h2>
+       <p>
+        If you have a virus on your computer we can remove it and provide antivirus software to prevent virus in the future.
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <!-- Section 3 -->
+   <section class="section background-white">
+    <div class="full-width text-center">
+     <img alt="any computer problem" class="center margin-bottom-30" src="img/anybrand-anyproblem.jpg" style="margin-top: -50px;"/>
+     <div class="line">
+      <h2 class="headline text-thin text-s-size-30">
+       <span class="text-primary">
+        Any Brand,
+       </span>
+       Any Problem
+      </h2>
+      <p class="text-size-20 text-s-size-16 text-thin">
+       Technical issues can be frustrating, time consuming, and inconvenient. Homuten Computer Geeks services provides expert technicians 24 hours a day, any time of the week. Providing computer repair services across the United States, we work on both PC and Mac desktops/laptops. Whether it is your personal or business computer, Homuten Computer Geeks works efficiently to get your computer up and running.
+       <br/>
+       <br/>
+       At Homuten Computer Geeks, providing top quality technicians and customer service is important to us. Our priority is not only fixing your current technical issues, but also preventing computer problems from occurring in the future. Computer problem prevention starts with educating our customers on how to avoid scams, errors, and time consuming technical difficulties.
+       <br/>
+       <br/>
+       Computers have multiple parts, settings, and software that can cause different kinds of issues. Some common reasons people call for repairs are connection issues, slow startup, viruses, uploading new software, and data loss. Call Homuten Computer Geeks in order for one of our technicians to walk through your computer’s specific problem.
+       <br/>
+       <br/>
+       In addition to repairs and preventing future technical issues, promoting computer back-ups is one of our most valuable topics we will discuss. Multiple unexpected issues can lead to data loss and we want you to have access to your files, data, and important information at all times. We believe backing up your computer is the best back-up plan you have! Keeping data secure requires efficiency and awareness and we want to help.
+       <br/>
+       <br/>
+       Call now so we can schedule your computer repair service appointment today.
+       <hr/>
+       <h3>
+        Top Locations
+       </h3>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/central-falls-ri">
+         Central Falls, RI
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/moosup-ct">
+         Moosup, CT
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/east-hampton-ct">
+         East Hampton, CT
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/montvale-nj">
+         Montvale, NJ
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/avalon-nj">
+         Avalon, NJ
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/amsterdam-ny">
+         Amsterdam, NY
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/wilmington-ny">
+         Wilmington, NY
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/washington-pa">
+         Washington, PA
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/cordova-md">
+         Cordova, MD
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/myersville-md">
+         Myersville, MD
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/blenheim-sc">
+         Blenheim, SC
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/powder-springs-ga">
+         Powder Springs, GA
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/monticello-ga">
+         Monticello, GA
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/gore-springs-ms">
+         Gore Springs, MS
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/glencoe-mn">
+         Glencoe, MN
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/geddes-sd">
+         Geddes, SD
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/ellington-mo">
+         Ellington, MO
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/burden-ks">
+         Burden, KS
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/prim-ar">
+         Prim, AR
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/addington-ok">
+         Addington, OK
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/lopeno-tx">
+         Lopeno, TX
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/bonanza-ut">
+         Bonanza, UT
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/eddyville-or">
+         Eddyville, OR
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/peaks-island-me">
+         Peaks Island, ME
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/whitesboro-nj">
+         Whitesboro, NJ
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/south-river-nj">
+         South River, NJ
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/white-sulphur-springs-ny">
+         White Sulphur Springs, NY
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/east-springfield-ny">
+         East Springfield, NY
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/caneadea-ny">
+         Caneadea, NY
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/meadow-creek-wv">
+         Meadow Creek, WV
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/welaka-fl">
+         Welaka, FL
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/pisgah-al">
+         Pisgah, AL
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/kings-mills-oh">
+         Kings Mills, OH
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/antigo-wi">
+         Antigo, WI
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/west-salem-il">
+         West Salem, IL
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/milford-mo">
+         Milford, MO
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/emerson-ne">
+         Emerson, NE
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/hazard-ne">
+         Hazard, NE
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/jessieville-ar">
+         Jessieville, AR
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/oak-grove-ar">
+         Oak Grove, AR
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/vinita-ok">
+         Vinita, OK
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/trinity-center-ca">
+         Trinity Center, CA
+        </a>
+       </li>
+       <li class="cityli">
+        <a href="https://www.homuten.com/computer-repair/nikolski-ak">
+         Nikolski, AK
+        </a>
+       </li>
+      </p>
+     </div>
+    </div>
+   </section>
+   <hr class="break margin-top-bottom-0"/>
+  </main>
+  <!-- FOOTER -->
+  <footer>
+   <!-- Social -->
+   <div class="background-primary padding text-center">
+    <a href="">
+     <i class="icon-facebook_circle icon2x text-white">
+     </i>
+    </a>
+   </div>
+   <!-- Main Footer -->
+   <hr class="break margin-top-bottom-0" style="border-color: rgba(0, 38, 51, 0.80);"/>
+   <!-- Bottom Footer -->
+   <section class="padding background-dark">
+    <div class="line">
+     <div class="s-12 l-6">
+      <p class="text-size-12">
+       Copyright 2019, Homuten Computer Geeks
+      </p>
+      <p class="text-size-12">
+       Contact Us : 844-938-1085
+      </p>
+     </div>
+     <div class="s-12 l-6">
+     </div>
+    </div>
+   </section>
+  </footer>
+  <script src="js/responsee.js" type="text/javascript">
+  </script>
+  <script src="owl-carousel/owl.carousel.js" type="text/javascript">
+  </script>
+  <script src="js/template-scripts.js" type="text/javascript">
+  </script>
+ </body>
+</html>

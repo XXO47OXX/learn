@@ -1,0 +1,776 @@
+
+    var player = videojs('vod-15128', {controls: true, loop: false, muted: false, poster: "0d18a59c-d4aa-411a-8a30-c7a14ac4f058", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/694333675dc844698824051eb586e9cd/694333675dc844698824051eb586e9cd.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15128', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15128');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-15127', {controls: true, loop: false, muted: false, poster: "e102b972-59e5-4a69-a12b-8d05aa161089", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/8f8f5050e2db4ea3b9fd54bf93227eff/8f8f5050e2db4ea3b9fd54bf93227eff.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15127', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15127');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-15125', {controls: true, loop: false, muted: false, poster: "f724f955-c1f1-43d4-a2e4-6e8f9173188f", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/bb43a32cc7af42d3b6384a2ee26da747/bb43a32cc7af42d3b6384a2ee26da747.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15125', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15125');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-15126', {controls: true, loop: false, muted: false, poster: "f33c5076-14ac-442d-814f-4dc4cc76d7d2", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/d2c0dfd4a9734f209047e17afb320a8d/d2c0dfd4a9734f209047e17afb320a8d.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15126', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15126');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-15124', {controls: true, loop: false, muted: false, poster: "d9bff3fe-0958-41a5-9bb7-5d282b990ba3", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/3444ce43776f4b4d967b552732a955bc/3444ce43776f4b4d967b552732a955bc.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15124', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15124');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-15123', {controls: true, loop: false, muted: false, poster: "b9d33ed1-066d-4fae-9b93-ced81f3cff5f", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/7828bb5de6954893861b99e6e30c88d7/7828bb5de6954893861b99e6e30c88d7.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15123', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15123');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-15121', {controls: true, loop: false, muted: false, poster: "307dff00-55a9-40c3-856d-c9f03edf7152", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/00384d19ce8e4aa185a4e8782d05371c/00384d19ce8e4aa185a4e8782d05371c.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15121', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15121');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-15122', {controls: true, loop: false, muted: false, poster: "07c38a3c-25e9-458e-976a-3140ca9d247e", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/77000700d5cc4e439fbc5744a6ba2c76/77000700d5cc4e439fbc5744a6ba2c76.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15122', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15122');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-15117', {controls: true, loop: false, muted: false, poster: "cf122f88-a6bb-4940-94bb-960631d99b29", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/23ba2e299556446c81f0ef3e64650a49/23ba2e299556446c81f0ef3e64650a49.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15117', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15117');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-15116', {controls: true, loop: false, muted: false, poster: "b2e7e3a4-d52e-4896-92a9-55bd72ebb940", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/ea4d71f7b6454fcf9d531eae4e6df933/ea4d71f7b6454fcf9d531eae4e6df933.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15116', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15116');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-15112', {controls: true, loop: false, muted: false, poster: "469da757-a6b1-43a8-92c3-f963faf90815", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/8740068cc9ee47c7983be82d31cb986c/8740068cc9ee47c7983be82d31cb986c.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15112', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15112');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-15115', {controls: true, loop: false, muted: false, poster: "3dd53881-17ce-4c18-88a2-434a1830c6f9", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/00683dd9e97b4850bf33b5a69abdaa99/00683dd9e97b4850bf33b5a69abdaa99.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15115', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15115');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-15111', {controls: true, loop: false, muted: false, poster: "5f22212e-f965-4194-a6ba-49f4f0e76403", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/1014f7cb48a74f6e950af3951fed79dd/1014f7cb48a74f6e950af3951fed79dd.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15111', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15111');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-15109', {controls: true, loop: false, muted: false, poster: "839394db-b6a4-45f8-a882-8a185448c266", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/e948ea04e0f040cbb06828812ab7af09/e948ea04e0f040cbb06828812ab7af09.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15109', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15109');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-15107', {controls: true, loop: false, muted: false, poster: "ca908eca-ee77-43ad-92fd-00f1775cbeb9", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/0dda067b9af34ad4bed1bf08f0003ea0/0dda067b9af34ad4bed1bf08f0003ea0.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15107', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15107');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-15108', {controls: true, loop: false, muted: false, poster: "ce4b30de-b34f-4b49-88c8-177629dcb2b3", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/be3578036b0a41bfb09c7ab04a6103d1/be3578036b0a41bfb09c7ab04a6103d1.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15108', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15108');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-15106', {controls: true, loop: false, muted: false, poster: "4bb6fef7-90f2-424a-b5bc-a532acf72702", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/cc749a8560f34f9fa4c60ab0809941ae/cc749a8560f34f9fa4c60ab0809941ae.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15106', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15106');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-15105', {controls: true, loop: false, muted: false, poster: "e391d041-44db-486a-a946-4d0e9abaac5f", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/8a17bf6a2741403b9e1d8ed6b08659e2/8a17bf6a2741403b9e1d8ed6b08659e2.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15105', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15105');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-15097', {controls: true, loop: false, muted: false, poster: "cb9f9798-2525-4913-85b0-15750da8c72e", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/18a3d5897b2a44dba806764f22b4a143/18a3d5897b2a44dba806764f22b4a143.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15097', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15097');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-15100', {controls: true, loop: false, muted: false, poster: "8e24c787-b37c-4294-b856-1983e882f269", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/68906eabd24e47c6b89cdb0edaaad21a/68906eabd24e47c6b89cdb0edaaad21a.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15100', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15100');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-15096', {controls: true, loop: false, muted: false, poster: "2ba5c057-63be-43b3-a8b3-7ea7758b62f4", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/11cccbff6dd94bebaf5863c4566a8597/11cccbff6dd94bebaf5863c4566a8597.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15096', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15096');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-15093', {controls: true, loop: false, muted: false, poster: "1fdcbd1a-e910-46ab-add1-6af4f7c24226", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/a83c511f12d443bb872d11dcf978ae32/a83c511f12d443bb872d11dcf978ae32.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15093', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15093');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-15091', {controls: true, loop: false, muted: false, poster: "d7cf431f-45b3-4d3c-a3c4-87b926740925", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/02ca2290614e4a728fb8e8332b03fb39/02ca2290614e4a728fb8e8332b03fb39.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15091', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15091');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-15092', {controls: true, loop: false, muted: false, poster: "8516e872-c014-4f7e-ad00-1a625a6000ef", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/f02213c5d11b4fc0bb79cd2e4b62f31e/f02213c5d11b4fc0bb79cd2e4b62f31e.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15092', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15092');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-15085', {controls: true, loop: false, muted: false, poster: "f7012752-f8b5-4515-a579-4a6d76fbb201", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/64fac7ea1f0e48c1aa8640116c2d14c3/64fac7ea1f0e48c1aa8640116c2d14c3.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15085', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15085');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-15084', {controls: true, loop: false, muted: false, poster: "fff216cf-1a27-40ec-b112-99c13ceca572", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/6f6b21f38f214b07a097fe88151074c6/6f6b21f38f214b07a097fe88151074c6.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15084', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15084');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-15077', {controls: true, loop: false, muted: false, poster: "455d20eb-79b7-4f34-9530-f6957673089f", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/49d29023cb5f4151a1b2ad30587532a0/49d29023cb5f4151a1b2ad30587532a0.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15077', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15077');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-15083', {controls: true, loop: false, muted: false, poster: "3e61a5d5-4d0a-42a1-ba3f-e5c287d4b7fc", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/30927fbc0e4c4eb0a49abed5a35527be/30927fbc0e4c4eb0a49abed5a35527be.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15083', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15083');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-15076', {controls: true, loop: false, muted: false, poster: "b4102bf8-c964-4ce3-a60c-3d29be68f91a", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/012a352a5c294b509af6134a80736a0c/012a352a5c294b509af6134a80736a0c.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15076', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15076');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-15075', {controls: true, loop: false, muted: false, poster: "c75e2d2a-a94e-4a70-bb28-a2a2c6e03e6a", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/ec8e757af1514c78b778789b4b41b426/ec8e757af1514c78b778789b4b41b426.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-15075', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-15075');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14985', {controls: true, loop: false, muted: false, poster: "d07ef6b8-2658-413e-9ad2-58f4f4f02207", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/2b65cadf4532408ab0fadc01b4c4e214/2b65cadf4532408ab0fadc01b4c4e214.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14985', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14985');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14986', {controls: true, loop: false, muted: false, poster: "6c190a0f-07d1-4028-829e-a7f6fc9e1014", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/fe9a88b88d784fbe82352bce2d705f2c/fe9a88b88d784fbe82352bce2d705f2c.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14986', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14986');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14984', {controls: true, loop: false, muted: false, poster: "18004b33-cda0-456b-8053-489b04ad0f0a", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/0948596715574488b36054e1b83191e8/0948596715574488b36054e1b83191e8.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14984', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14984');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14983', {controls: true, loop: false, muted: false, poster: "1e8fb120-5f7e-45f9-840c-999c21841922", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/38b7fbe606404c1e80e3a3bfb82fbe12/38b7fbe606404c1e80e3a3bfb82fbe12.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14983', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14983');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14981', {controls: true, loop: false, muted: false, poster: "0b584d70-50c2-4104-ad95-a9b43d65c924", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/5ef2da0cba014fc2af30023ae2bad9c6/5ef2da0cba014fc2af30023ae2bad9c6.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14981', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14981');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14982', {controls: true, loop: false, muted: false, poster: "634f7ea3-be6e-4e26-8423-555520e1fe70", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/d657663967f947938eabfe5206cb9f24/d657663967f947938eabfe5206cb9f24.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14982', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14982');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14980', {controls: true, loop: false, muted: false, poster: "3885374e-8464-4bd8-bf3a-b64bb183b623", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/37a4ebaba0ac4109a766338c302580fe/37a4ebaba0ac4109a766338c302580fe.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14980', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14980');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14978', {controls: true, loop: false, muted: false, poster: "34c85a6b-c4c6-47e7-a981-870cb98eb511", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/e5bf0617b8d546f9ad4d15e6fd6bb3d6/e5bf0617b8d546f9ad4d15e6fd6bb3d6.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14978', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14978');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14976', {controls: true, loop: false, muted: false, poster: "92e211bf-33db-4f13-82a1-d156b52b5f4c", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/fa8827dc81ea4a069f127a12b49f87f7/fa8827dc81ea4a069f127a12b49f87f7.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14976', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14976');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14977', {controls: true, loop: false, muted: false, poster: "26160d56-1aff-456b-baca-84a91cab9e5f", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/ca4a291212c24b298776cf8f3e21891c/ca4a291212c24b298776cf8f3e21891c.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14977', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14977');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14914', {controls: true, loop: false, muted: false, poster: "68aac6ca-5ebd-47e5-a120-c5036d530723", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/253db9c75b19413fb59577dc5427b6b4/253db9c75b19413fb59577dc5427b6b4.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14914', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14914');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14913', {controls: true, loop: false, muted: false, poster: "601c597f-e21b-4b2d-bcaf-0bfb77c8c285", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/0550b08bdd134abea6a16f8cffc5f12d/0550b08bdd134abea6a16f8cffc5f12d.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14913', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14913');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14911', {controls: true, loop: false, muted: false, poster: "b8a121dc-6898-4426-8078-e7ae0d86d693", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/fb0aed20853848358d5e3158b048bde2/fb0aed20853848358d5e3158b048bde2.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14911', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14911');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14912', {controls: true, loop: false, muted: false, poster: "6bb8d3b6-a04a-4102-9106-c0010095f527", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/9bd501a4a4974e4a942db90ee766c020/9bd501a4a4974e4a942db90ee766c020.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14912', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14912');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14910', {controls: true, loop: false, muted: false, poster: "53a2bec6-d3fb-4756-bdb1-4be1d93354a2", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/eabbdb9f15cd44ee928ccab1f20a7c5a/eabbdb9f15cd44ee928ccab1f20a7c5a.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14910', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14910');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14909', {controls: true, loop: false, muted: false, poster: "56c24890-0c5a-41ec-8d19-1d43b7f8af2d", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/18fa69748cde4fb4a912802dc71fb6b9/18fa69748cde4fb4a912802dc71fb6b9.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14909', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14909');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14907', {controls: true, loop: false, muted: false, poster: "1f379f22-7972-4356-a03b-c4c5b7b2076e", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/160f82b309e5447c88e42cf27647c1da/160f82b309e5447c88e42cf27647c1da.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14907', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14907');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14908', {controls: true, loop: false, muted: false, poster: "518bd25d-d93e-447b-a2a9-fe457237c5cc", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/49ab59267e704be693e77c5b554916d2/49ab59267e704be693e77c5b554916d2.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14908', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14908');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14906', {controls: true, loop: false, muted: false, poster: "cf660f6d-eddf-4c87-9d21-06c9db99f9bb", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/20c4d9d8089b4ae880350e3248f3d190/20c4d9d8089b4ae880350e3248f3d190.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14906', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14906');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14905', {controls: true, loop: false, muted: false, poster: "f7a3439a-f95b-4d5d-9612-d105d064e926", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/0e5ddb785fc4452d80ddb0fe88adae29/0e5ddb785fc4452d80ddb0fe88adae29.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14905', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14905');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14903', {controls: true, loop: false, muted: false, poster: "eb269208-e1b9-4942-aaf2-b19440f0eed9", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/23d5025afd0a4713ad9902df8eb3aafe/23d5025afd0a4713ad9902df8eb3aafe.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14903', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14903');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14904', {controls: true, loop: false, muted: false, poster: "a85614e5-1dc1-4da2-befe-2dfe9b22e4f0", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/cd35bc401c2e43739d1361c9ef62162c/cd35bc401c2e43739d1361c9ef62162c.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14904', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14904');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14902', {controls: true, loop: false, muted: false, poster: "c3051584-ca8f-456b-ab57-43aa324c8a6d", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/6c6dc9f17bb74da78a63de0fd9db3878/6c6dc9f17bb74da78a63de0fd9db3878.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14902', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14902');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14901', {controls: true, loop: false, muted: false, poster: "ecd3e8ba-041e-4248-ab8a-fbe4395de856", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/bb8f1844d1a947fc8c5fb75906b95dbd/bb8f1844d1a947fc8c5fb75906b95dbd.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14901', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14901');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14899', {controls: true, loop: false, muted: false, poster: "ca2ed03d-074f-4978-92b4-6b3445fe65ea", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/43398e2aa0c34219a5a1e32486755413/43398e2aa0c34219a5a1e32486755413.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14899', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14899');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14900', {controls: true, loop: false, muted: false, poster: "a9bc65ba-274f-42aa-932c-2d730a1daaca", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/c8350ddff70b49a6a834611207eb72fb/c8350ddff70b49a6a834611207eb72fb.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14900', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14900');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14898', {controls: true, loop: false, muted: false, poster: "4959edba-a5d5-4764-8ee7-5fa60f60b27b", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/97561103d7874b2db32c50ce633f2992/97561103d7874b2db32c50ce633f2992.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14898', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14898');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14897', {controls: true, loop: false, muted: false, poster: "c9ceed1c-7ae7-495c-9b68-b90d96968bf6", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/fc3a9b0f497544188de33540d10dd2fe/fc3a9b0f497544188de33540d10dd2fe.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14897', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14897');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14895', {controls: true, loop: false, muted: false, poster: "3e43dcf9-f542-494c-a13a-307da1bc0672", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/27b9dd1030684fb3a52f3411ba9d8494/27b9dd1030684fb3a52f3411ba9d8494.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14895', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14895');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14896', {controls: true, loop: false, muted: false, poster: "7ade1f42-8e43-4db2-a4d5-c48ecca84b42", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/55cc8e85f15b4e938ad4b029eafdc4cb/55cc8e85f15b4e938ad4b029eafdc4cb.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14896', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14896');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14894', {controls: true, loop: false, muted: false, poster: "825bf506-741e-4d5e-9c2a-210f6949dd46", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/79dcdae77a244c9eaff478999cb55760/79dcdae77a244c9eaff478999cb55760.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14894', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14894');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14893', {controls: true, loop: false, muted: false, poster: "5a8a39a4-09b9-48f6-b9a9-4757c2686785", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/f519a2bd0c2749e9a18032fe9f06ccc2/f519a2bd0c2749e9a18032fe9f06ccc2.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14893', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14893');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14891', {controls: true, loop: false, muted: false, poster: "29b17356-f157-420f-885e-f04b0c389df6", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/43b21392cb0b4520b468b9ca57325efa/43b21392cb0b4520b468b9ca57325efa.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14891', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14891');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14892', {controls: true, loop: false, muted: false, poster: "f62099b0-eb5a-44a1-b9c4-238d0eb12e80", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/07f34b837eed4966a7b87b0bc26e8774/07f34b837eed4966a7b87b0bc26e8774.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14892', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14892');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14761', {controls: true, loop: false, muted: false, poster: "42fb5474-e9af-4bae-942d-869e9502752b", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/a318ebb6a61e4fe38d299742ea3fbf3a/a318ebb6a61e4fe38d299742ea3fbf3a.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14761', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14761');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14759', {controls: true, loop: false, muted: false, poster: "a5f967ab-a6d2-420c-972f-3311ee46bcbe", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/6b5b8a28dc2c4e5289dc78b0935aa5b6/6b5b8a28dc2c4e5289dc78b0935aa5b6.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14759', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14759');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14757', {controls: true, loop: false, muted: false, poster: "db2563be-f62f-446a-8308-4ff5268ace66", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/475e65fd28744f809ec708fb579c2644/475e65fd28744f809ec708fb579c2644.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14757', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14757');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14758', {controls: true, loop: false, muted: false, poster: "932bcee9-a9b6-4801-bd20-559882536e00", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/591a646d561d4bfe9d51374ad81cb806/591a646d561d4bfe9d51374ad81cb806.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14758', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14758');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14756', {controls: true, loop: false, muted: false, poster: "44d4777b-269b-4d24-86e2-52347632a39c", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/6ebd4e87d4fc4a16b1a249b35ab6cda0/6ebd4e87d4fc4a16b1a249b35ab6cda0.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14756', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14756');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14755', {controls: true, loop: false, muted: false, poster: "42d9db14-3c8a-4c9f-9acb-636585ecfc94", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/2cefe0e4bdc3458492244e73fae79238/2cefe0e4bdc3458492244e73fae79238.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14755', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14755');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14752', {controls: true, loop: false, muted: false, poster: "de9aef46-8cd5-4408-9b4d-788d4c6e4d81", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/d39f5d1eebab4b8ba64282a0513f74e7/d39f5d1eebab4b8ba64282a0513f74e7.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14752', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14752');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14754', {controls: true, loop: false, muted: false, poster: "cd3732a0-f75a-41f3-88b3-69cadb049adc", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/31ef2f1549534f0389e49fba9898110c/31ef2f1549534f0389e49fba9898110c.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14754', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14754');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14751', {controls: true, loop: false, muted: false, poster: "f1e9b5a1-082f-418b-8ff2-63b37fea3f96", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/1fdf58e8471d4d5bb2235d9365e03a06/1fdf58e8471d4d5bb2235d9365e03a06.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14751', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14751');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14750', {controls: true, loop: false, muted: false, poster: "afdf139e-2255-49d2-88bb-e83349c1f1eb", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/543fd8531b6a4c0ca173733861e26d67/543fd8531b6a4c0ca173733861e26d67.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14750', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14750');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14748', {controls: true, loop: false, muted: false, poster: "1a885e9b-ac64-4140-9801-cb2509270055", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/da025768e4e24dcc84348a6d839c67d0/da025768e4e24dcc84348a6d839c67d0.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14748', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14748');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14749', {controls: true, loop: false, muted: false, poster: "0d5a2080-e2da-48d3-ac7a-b8c96fe50f04", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/24a5746a0f0b4cfbae16f341f6e4359c/24a5746a0f0b4cfbae16f341f6e4359c.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14749', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14749');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14747', {controls: true, loop: false, muted: false, poster: "eef11f98-6098-4267-9024-c0250422215b", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/5324ff9fcb11415f9b9a9544d3f7b67c/5324ff9fcb11415f9b9a9544d3f7b67c.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14747', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14747');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14746', {controls: true, loop: false, muted: false, poster: "274cb200-71f2-45cc-9e69-5e79799370a6", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/9b2506ad2b14476090b721dba05f6baf/9b2506ad2b14476090b721dba05f6baf.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14746', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14746');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14744', {controls: true, loop: false, muted: false, poster: "4ca08cc3-d4fb-4e66-b4f5-166615441f00", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/175b2d5f776d4ecfb83d66f74dd25863/175b2d5f776d4ecfb83d66f74dd25863.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14744', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14744');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14745', {controls: true, loop: false, muted: false, poster: "126cdbd9-ecea-4893-81c6-0526de968589", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/120f4f38de024af2931d6c1d9ce93699/120f4f38de024af2931d6c1d9ce93699.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14745', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14745');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14743', {controls: true, loop: false, muted: false, poster: "eaa5dfa4-5b60-474c-9f1d-2e6468831299", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/3ab2d55055644597b7c7d7483b44ce4b/3ab2d55055644597b7c7d7483b44ce4b.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14743', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14743');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14742', {controls: true, loop: false, muted: false, poster: "ae391894-5cab-47a7-8ce5-399e480c3ee4", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/8a44930722d241ce804da5aae66106bc/8a44930722d241ce804da5aae66106bc.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14742', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14742');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14714', {controls: true, loop: false, muted: false, poster: "c8445fbe-c387-4a72-b7fd-0aa77f7c6e6e", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/2834869db6f341bc892a4d97aa15d32a/2834869db6f341bc892a4d97aa15d32a.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14714', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14714');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14715', {controls: true, loop: false, muted: false, poster: "3f3f5893-d19f-44a7-8edd-141ed4504f2b", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/34833844f2284434956214641da56561/34833844f2284434956214641da56561.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14715', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14715');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14712', {controls: true, loop: false, muted: false, poster: "d228ff05-8f81-4cc2-8673-0a2ec2b6b32f", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/d2d6f82baf4647dd9e257ba0190e2546/d2d6f82baf4647dd9e257ba0190e2546.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14712', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14712');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14711', {controls: true, loop: false, muted: false, poster: "53c9f59b-ed42-4e33-85dc-6d847170ede7", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/1bf10354e94b49aab2b4a21b5eb84114/1bf10354e94b49aab2b4a21b5eb84114.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14711', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14711');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14708', {controls: true, loop: false, muted: false, poster: "639db50e-1d65-4575-a6fc-f882c7e12a0e", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/7bbe6c8099cf4a50897997d19b4a22c9/7bbe6c8099cf4a50897997d19b4a22c9.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14708', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14708');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14710', {controls: true, loop: false, muted: false, poster: "31ad7e9f-f306-49cb-b244-fe10e334df50", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/f2f68802f04f486596c1c8e8bf3e80f1/f2f68802f04f486596c1c8e8bf3e80f1.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14710', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14710');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14706', {controls: true, loop: false, muted: false, poster: "9ce86690-9064-45d7-ad10-5939b070abb0", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/af8f0f95ed4c41b2ae7c815527fc4b92/af8f0f95ed4c41b2ae7c815527fc4b92.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14706', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14706');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14705', {controls: true, loop: false, muted: false, poster: "e0260dc0-64c0-442e-830a-8fcfe552c40a", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/afbc1c44f3a24478a932e7b35e757a06/afbc1c44f3a24478a932e7b35e757a06.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14705', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14705');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14702', {controls: true, loop: false, muted: false, poster: "dd067499-01f3-46a3-a762-5eb5f9a81d01", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/2b4a276a9b404cd58cc965d07435dd0e/2b4a276a9b404cd58cc965d07435dd0e.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14702', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14702');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14703', {controls: true, loop: false, muted: false, poster: "3b8c8aab-d199-465b-aab7-d53fa5ac9f7b", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/02f00223b774440f8708647d0a0244a7/02f00223b774440f8708647d0a0244a7.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14703', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14703');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14701', {controls: true, loop: false, muted: false, poster: "ac525c33-4a7d-462d-8887-8439c7cd08c5", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/02be0e0137224da9b14b3647fe3b9630/02be0e0137224da9b14b3647fe3b9630.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14701', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14701');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14700', {controls: true, loop: false, muted: false, poster: "9167958d-3458-4e30-811c-a1e8e4b4f721", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/ab60fd93031f4c9ab758f7f110fe160a/ab60fd93031f4c9ab758f7f110fe160a.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14700', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14700');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14697', {controls: true, loop: false, muted: false, poster: "fac9bb06-c495-483b-a203-ec8c8aa9c884", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/b2a8071e6bf449c29692679c90509392/b2a8071e6bf449c29692679c90509392.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14697', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14697');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14699', {controls: true, loop: false, muted: false, poster: "38b97016-2277-4402-bdf8-d7f5b9757393", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/f42c73ce8d09446c9ff9983295913111/f42c73ce8d09446c9ff9983295913111.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14699', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14699');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  
+    var player = videojs('vod-14696', {controls: true, loop: false, muted: false, poster: "e87e4d25-1c0b-478c-93eb-b70066786128", language: "zh", liveui: false, notSupportedMessage: "", playbackRates: [1, 2, 3], preferFullWindow: false, responsive: true, suppressNotSupportedError: false, sources: [{src: "https://cdn.jianlimy.com/93b84ce253cb4245ab667da7fc741a11/93b84ce253cb4245ab667da7fc741a11.m3u8", type: "application/x-mpegURL"}]},function() {
+    callBackToDartSide('vod-14696', 'onReady' , 'true');
+    });                  var player = videojs.getPlayer('vod-14696');
+                  player.addChild('VDTitle');
+                  player.on('ended', () => { endOfTrial(); });
+                  https://cdn.jianlimy.com/694333675dc844698824051eb586e9cd/694333675dc844698824051eb586e9cd.m3u8
+
+https://cdn.jianlimy.com/8f8f5050e2db4ea3b9fd54bf93227eff/8f8f5050e2db4ea3b9fd54bf93227eff.m3u8
+
+https://cdn.jianlimy.com/bb43a32cc7af42d3b6384a2ee26da747/bb43a32cc7af42d3b6384a2ee26da747.m3u8
+
+https://cdn.jianlimy.com/d2c0dfd4a9734f209047e17afb320a8d/d2c0dfd4a9734f209047e17afb320a8d.m3u8
+
+https://cdn.jianlimy.com/3444ce43776f4b4d967b552732a955bc/3444ce43776f4b4d967b552732a955bc.m3u8
+
+https://cdn.jianlimy.com/7828bb5de6954893861b99e6e30c88d7/7828bb5de6954893861b99e6e30c88d7.m3u8
+
+https://cdn.jianlimy.com/00384d19ce8e4aa185a4e8782d05371c/00384d19ce8e4aa185a4e8782d05371c.m3u8
+
+https://cdn.jianlimy.com/77000700d5cc4e439fbc5744a6ba2c76/77000700d5cc4e439fbc5744a6ba2c76.m3u8
+
+https://cdn.jianlimy.com/23ba2e299556446c81f0ef3e64650a49/23ba2e299556446c81f0ef3e64650a49.m3u8
+
+https://cdn.jianlimy.com/ea4d71f7b6454fcf9d531eae4e6df933/ea4d71f7b6454fcf9d531eae4e6df933.m3u8
+
+https://cdn.jianlimy.com/8740068cc9ee47c7983be82d31cb986c/8740068cc9ee47c7983be82d31cb986c.m3u8
+
+https://cdn.jianlimy.com/00683dd9e97b4850bf33b5a69abdaa99/00683dd9e97b4850bf33b5a69abdaa99.m3u8
+
+https://cdn.jianlimy.com/1014f7cb48a74f6e950af3951fed79dd/1014f7cb48a74f6e950af3951fed79dd.m3u8
+
+https://cdn.jianlimy.com/e948ea04e0f040cbb06828812ab7af09/e948ea04e0f040cbb06828812ab7af09.m3u8
+
+https://cdn.jianlimy.com/0dda067b9af34ad4bed1bf08f0003ea0/0dda067b9af34ad4bed1bf08f0003ea0.m3u8
+
+https://cdn.jianlimy.com/be3578036b0a41bfb09c7ab04a6103d1/be3578036b0a41bfb09c7ab04a6103d1.m3u8
+
+https://cdn.jianlimy.com/cc749a8560f34f9fa4c60ab0809941ae/cc749a8560f34f9fa4c60ab0809941ae.m3u8
+
+https://cdn.jianlimy.com/8a17bf6a2741403b9e1d8ed6b08659e2/8a17bf6a2741403b9e1d8ed6b08659e2.m3u8
+
+https://cdn.jianlimy.com/18a3d5897b2a44dba806764f22b4a143/18a3d5897b2a44dba806764f22b4a143.m3u8
+
+https://cdn.jianlimy.com/68906eabd24e47c6b89cdb0edaaad21a/68906eabd24e47c6b89cdb0edaaad21a.m3u8
+
+https://cdn.jianlimy.com/11cccbff6dd94bebaf5863c4566a8597/11cccbff6dd94bebaf5863c4566a8597.m3u8
+
+https://cdn.jianlimy.com/a83c511f12d443bb872d11dcf978ae32/a83c511f12d443bb872d11dcf978ae32.m3u8
+
+https://cdn.jianlimy.com/02ca2290614e4a728fb8e8332b03fb39/02ca2290614e4a728fb8e8332b03fb39.m3u8
+
+https://cdn.jianlimy.com/f02213c5d11b4fc0bb79cd2e4b62f31e/f02213c5d11b4fc0bb79cd2e4b62f31e.m3u8
+
+https://cdn.jianlimy.com/64fac7ea1f0e48c1aa8640116c2d14c3/64fac7ea1f0e48c1aa8640116c2d14c3.m3u8
+
+https://cdn.jianlimy.com/6f6b21f38f214b07a097fe88151074c6/6f6b21f38f214b07a097fe88151074c6.m3u8
+
+https://cdn.jianlimy.com/49d29023cb5f4151a1b2ad30587532a0/49d29023cb5f4151a1b2ad30587532a0.m3u8
+
+https://cdn.jianlimy.com/30927fbc0e4c4eb0a49abed5a35527be/30927fbc0e4c4eb0a49abed5a35527be.m3u8
+
+https://cdn.jianlimy.com/012a352a5c294b509af6134a80736a0c/012a352a5c294b509af6134a80736a0c.m3u8
+
+https://cdn.jianlimy.com/ec8e757af1514c78b778789b4b41b426/ec8e757af1514c78b778789b4b41b426.m3u8
+
+https://cdn.jianlimy.com/2b65cadf4532408ab0fadc01b4c4e214/2b65cadf4532408ab0fadc01b4c4e214.m3u8
+
+https://cdn.jianlimy.com/fe9a88b88d784fbe82352bce2d705f2c/fe9a88b88d784fbe82352bce2d705f2c.m3u8
+
+https://cdn.jianlimy.com/0948596715574488b36054e1b83191e8/0948596715574488b36054e1b83191e8.m3u8
+
+https://cdn.jianlimy.com/38b7fbe606404c1e80e3a3bfb82fbe12/38b7fbe606404c1e80e3a3bfb82fbe12.m3u8
+
+https://cdn.jianlimy.com/5ef2da0cba014fc2af30023ae2bad9c6/5ef2da0cba014fc2af30023ae2bad9c6.m3u8
+
+https://cdn.jianlimy.com/d657663967f947938eabfe5206cb9f24/d657663967f947938eabfe5206cb9f24.m3u8
+
+https://cdn.jianlimy.com/37a4ebaba0ac4109a766338c302580fe/37a4ebaba0ac4109a766338c302580fe.m3u8
+
+https://cdn.jianlimy.com/e5bf0617b8d546f9ad4d15e6fd6bb3d6/e5bf0617b8d546f9ad4d15e6fd6bb3d6.m3u8
+
+https://cdn.jianlimy.com/fa8827dc81ea4a069f127a12b49f87f7/fa8827dc81ea4a069f127a12b49f87f7.m3u8
+
+https://cdn.jianlimy.com/ca4a291212c24b298776cf8f3e21891c/ca4a291212c24b298776cf8f3e21891c.m3u8
+
+https://cdn.jianlimy.com/253db9c75b19413fb59577dc5427b6b4/253db9c75b19413fb59577dc5427b6b4.m3u8
+
+https://cdn.jianlimy.com/0550b08bdd134abea6a16f8cffc5f12d/0550b08bdd134abea6a16f8cffc5f12d.m3u8
+
+https://cdn.jianlimy.com/fb0aed20853848358d5e3158b048bde2/fb0aed20853848358d5e3158b048bde2.m3u8
+
+https://cdn.jianlimy.com/9bd501a4a4974e4a942db90ee766c020/9bd501a4a4974e4a942db90ee766c020.m3u8
+
+https://cdn.jianlimy.com/eabbdb9f15cd44ee928ccab1f20a7c5a/eabbdb9f15cd44ee928ccab1f20a7c5a.m3u8
+
+https://cdn.jianlimy.com/18fa69748cde4fb4a912802dc71fb6b9/18fa69748cde4fb4a912802dc71fb6b9.m3u8
+
+https://cdn.jianlimy.com/160f82b309e5447c88e42cf27647c1da/160f82b309e5447c88e42cf27647c1da.m3u8
+
+https://cdn.jianlimy.com/49ab59267e704be693e77c5b554916d2/49ab59267e704be693e77c5b554916d2.m3u8
+
+https://cdn.jianlimy.com/20c4d9d8089b4ae880350e3248f3d190/20c4d9d8089b4ae880350e3248f3d190.m3u8
+
+https://cdn.jianlimy.com/0e5ddb785fc4452d80ddb0fe88adae29/0e5ddb785fc4452d80ddb0fe88adae29.m3u8
+
+https://cdn.jianlimy.com/23d5025afd0a4713ad9902df8eb3aafe/23d5025afd0a4713ad9902df8eb3aafe.m3u8
+
+https://cdn.jianlimy.com/cd35bc401c2e43739d1361c9ef62162c/cd35bc401c2e43739d1361c9ef62162c.m3u8
+
+https://cdn.jianlimy.com/6c6dc9f17bb74da78a63de0fd9db3878/6c6dc9f17bb74da78a63de0fd9db3878.m3u8
+
+https://cdn.jianlimy.com/bb8f1844d1a947fc8c5fb75906b95dbd/bb8f1844d1a947fc8c5fb75906b95dbd.m3u8
+
+https://cdn.jianlimy.com/43398e2aa0c34219a5a1e32486755413/43398e2aa0c34219a5a1e32486755413.m3u8
+
+https://cdn.jianlimy.com/c8350ddff70b49a6a834611207eb72fb/c8350ddff70b49a6a834611207eb72fb.m3u8
+
+https://cdn.jianlimy.com/97561103d7874b2db32c50ce633f2992/97561103d7874b2db32c50ce633f2992.m3u8
+
+https://cdn.jianlimy.com/fc3a9b0f497544188de33540d10dd2fe/fc3a9b0f497544188de33540d10dd2fe.m3u8
+
+https://cdn.jianlimy.com/27b9dd1030684fb3a52f3411ba9d8494/27b9dd1030684fb3a52f3411ba9d8494.m3u8
+
+https://cdn.jianlimy.com/55cc8e85f15b4e938ad4b029eafdc4cb/55cc8e85f15b4e938ad4b029eafdc4cb.m3u8
+
+https://cdn.jianlimy.com/79dcdae77a244c9eaff478999cb55760/79dcdae77a244c9eaff478999cb55760.m3u8
+
+https://cdn.jianlimy.com/f519a2bd0c2749e9a18032fe9f06ccc2/f519a2bd0c2749e9a18032fe9f06ccc2.m3u8
+
+https://cdn.jianlimy.com/43b21392cb0b4520b468b9ca57325efa/43b21392cb0b4520b468b9ca57325efa.m3u8
+
+https://cdn.jianlimy.com/07f34b837eed4966a7b87b0bc26e8774/07f34b837eed4966a7b87b0bc26e8774.m3u8
+
+https://cdn.jianlimy.com/a318ebb6a61e4fe38d299742ea3fbf3a/a318ebb6a61e4fe38d299742ea3fbf3a.m3u8
+
+https://cdn.jianlimy.com/6b5b8a28dc2c4e5289dc78b0935aa5b6/6b5b8a28dc2c4e5289dc78b0935aa5b6.m3u8
+
+https://cdn.jianlimy.com/475e65fd28744f809ec708fb579c2644/475e65fd28744f809ec708fb579c2644.m3u8
+
+https://cdn.jianlimy.com/591a646d561d4bfe9d51374ad81cb806/591a646d561d4bfe9d51374ad81cb806.m3u8
+
+https://cdn.jianlimy.com/6ebd4e87d4fc4a16b1a249b35ab6cda0/6ebd4e87d4fc4a16b1a249b35ab6cda0.m3u8
+
+https://cdn.jianlimy.com/2cefe0e4bdc3458492244e73fae79238/2cefe0e4bdc3458492244e73fae79238.m3u8
+
+https://cdn.jianlimy.com/d39f5d1eebab4b8ba64282a0513f74e7/d39f5d1eebab4b8ba64282a0513f74e7.m3u8
+
+https://cdn.jianlimy.com/31ef2f1549534f0389e49fba9898110c/31ef2f1549534f0389e49fba9898110c.m3u8
+
+https://cdn.jianlimy.com/1fdf58e8471d4d5bb2235d9365e03a06/1fdf58e8471d4d5bb2235d9365e03a06.m3u8
+
+https://cdn.jianlimy.com/543fd8531b6a4c0ca173733861e26d67/543fd8531b6a4c0ca173733861e26d67.m3u8
+
+https://cdn.jianlimy.com/da025768e4e24dcc84348a6d839c67d0/da025768e4e24dcc84348a6d839c67d0.m3u8
+
+https://cdn.jianlimy.com/24a5746a0f0b4cfbae16f341f6e4359c/24a5746a0f0b4cfbae16f341f6e4359c.m3u8
+
+https://cdn.jianlimy.com/5324ff9fcb11415f9b9a9544d3f7b67c/5324ff9fcb11415f9b9a9544d3f7b67c.m3u8
+
+https://cdn.jianlimy.com/9b2506ad2b14476090b721dba05f6baf/9b2506ad2b14476090b721dba05f6baf.m3u8
+
+https://cdn.jianlimy.com/175b2d5f776d4ecfb83d66f74dd25863/175b2d5f776d4ecfb83d66f74dd25863.m3u8
+
+https://cdn.jianlimy.com/120f4f38de024af2931d6c1d9ce93699/120f4f38de024af2931d6c1d9ce93699.m3u8
+
+https://cdn.jianlimy.com/3ab2d55055644597b7c7d7483b44ce4b/3ab2d55055644597b7c7d7483b44ce4b.m3u8
+
+https://cdn.jianlimy.com/8a44930722d241ce804da5aae66106bc/8a44930722d241ce804da5aae66106bc.m3u8
+
+https://cdn.jianlimy.com/2834869db6f341bc892a4d97aa15d32a/2834869db6f341bc892a4d97aa15d32a.m3u8
+
+https://cdn.jianlimy.com/34833844f2284434956214641da56561/34833844f2284434956214641da56561.m3u8
+
+https://cdn.jianlimy.com/d2d6f82baf4647dd9e257ba0190e2546/d2d6f82baf4647dd9e257ba0190e2546.m3u8
+
+https://cdn.jianlimy.com/1bf10354e94b49aab2b4a21b5eb84114/1bf10354e94b49aab2b4a21b5eb84114.m3u8
+
+https://cdn.jianlimy.com/7bbe6c8099cf4a50897997d19b4a22c9/7bbe6c8099cf4a50897997d19b4a22c9.m3u8
+
+https://cdn.jianlimy.com/f2f68802f04f486596c1c8e8bf3e80f1/f2f68802f04f486596c1c8e8bf3e80f1.m3u8
+
+https://cdn.jianlimy.com/af8f0f95ed4c41b2ae7c815527fc4b92/af8f0f95ed4c41b2ae7c815527fc4b92.m3u8
+
+https://cdn.jianlimy.com/afbc1c44f3a24478a932e7b35e757a06/afbc1c44f3a24478a932e7b35e757a06.m3u8
+
+https://cdn.jianlimy.com/2b4a276a9b404cd58cc965d07435dd0e/2b4a276a9b404cd58cc965d07435dd0e.m3u8
+
+https://cdn.jianlimy.com/02f00223b774440f8708647d0a0244a7/02f00223b774440f8708647d0a0244a7.m3u8
+
+https://cdn.jianlimy.com/02be0e0137224da9b14b3647fe3b9630/02be0e0137224da9b14b3647fe3b9630.m3u8
+
+https://cdn.jianlimy.com/ab60fd93031f4c9ab758f7f110fe160a/ab60fd93031f4c9ab758f7f110fe160a.m3u8
+
+https://cdn.jianlimy.com/b2a8071e6bf449c29692679c90509392/b2a8071e6bf449c29692679c90509392.m3u8
+
+https://cdn.jianlimy.com/f42c73ce8d09446c9ff9983295913111/f42c73ce8d09446c9ff9983295913111.m3u8
+
+https://cdn.jianlimy.com/93b84ce253cb4245ab667da7fc741a11/93b84ce253cb4245ab667da7fc741a11.m3u8
+
